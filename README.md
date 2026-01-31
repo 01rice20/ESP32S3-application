@@ -2,7 +2,7 @@
 > Easy samples using ESP32-S3 via MicroPython
 
 ## Environment and sensors
-- Development Environment: MacOS
+- OS: MacOS
 - MCU: ESP32-S3
 - Microphone: Adafruit SPH0645LM4H
 
@@ -31,6 +31,7 @@ python3 mac.py
 <img width="1002" height="718" alt="截圖 2026-01-31 下午9 36 16" src="https://github.com/user-attachments/assets/779613fb-409a-46d5-8343-43168ae30561" />
 
 ### app1
+- [Reference Link for Circuit Connections](https://diyi0t.com/i2s-sound-tutorial-for-esp32/)
 - Interfacing an I2S microphone with the ESP32-S3 by mapping the LRCK (WS), DOUT, and BCLK signals to specific GPIO pins
 - The system is programmed to monitor the BOOT button; once pressed, it triggers a 20-second audio recording sequence
 - Upon completion, the device connects to Wi-Fi and utilizes the Discord API to upload the audio file directly to a target channel
